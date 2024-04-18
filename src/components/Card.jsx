@@ -7,8 +7,8 @@ const Card = ( props ) => {
                 <div class="card-body">
                     <h5 class="card-title">{props.titulo}</h5>
                     <p class="card-text">{props.texto}</p>
-                    <a href={props.web} class="btn btn-dark me-2 hoverable">{props.titulo}</a>
-                    <a href={props.repositorio} class="btn btn-dark me-1 hoverable">Repositorio</a>
+                    <a href={props.web} target="_blank" class="btn btn-dark me-2 hoverable">{props.titulo}</a>
+                    <a href={props.repositorio} target="_blank" class="btn btn-dark me-1 hoverable">Repositorio</a>
                 </div>
         </div>
     );
