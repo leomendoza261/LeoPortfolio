@@ -7,6 +7,9 @@ const CardList = () => {
             <h2>Proyectos</h2>
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
+                    <Card imagen={require("../images/Clima App.jpg")} titulo="Gestion de Produccion" texto="Aplicacion de gestion de produccion" web="https://faesa.netlify.app/" repositorio="https://github.com/leomendoza261/Faesa"></Card>
+                </div>
+                <div class="col">
                     <Card imagen={require("../images/Clima App.jpg")} titulo="Clima App" texto="Aplicacion del clima" web="https://zesty-mousse-04c21f.netlify.app/" repositorio="https://github.com/leomendoza261/Clima-app"></Card>
                 </div>
                 <div class="col">
